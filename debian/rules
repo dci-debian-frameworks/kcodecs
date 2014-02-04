@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@ --parallel --with pkgkde_symbolshelper
+
+override_dh_strip:
+	dh_strip --dbg-package=libkf5codecs5-dbg
