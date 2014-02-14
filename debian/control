@@ -6,11 +6,11 @@ XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
 Build-Depends: debhelper (>= 9.0.0), cmake,
  pkg-kde-tools,
  extra-cmake-modules,
- qtbase5-dev,
+ qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kcodecs
 
-Package: libkf5codecs5
+Package: libkf5codecs4
 Architecture: any
 Multi-Arch: same
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -22,17 +22,17 @@ Package: libkf5codecs-dev
 Architecture: any
 Multi-Arch: same
 Section: libdevel
-Depends: libkf5codecs5 (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libkf5codecs4 (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Description: development files for kcodecs
  This package contains development files for building software that uses
  libraries from kcodecs.
 
-Package: libkf5codecs5-dbg
+Package: libkf5codecs4-dbg
 Architecture: any
 Multi-Arch: same
 Section: debug
 Priority: extra
-Depends: libkf5codecs5 (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libkf5codecs4 (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Description: debugging symbols for the kcodecs package
  This package contains debugging files used to investigate problems with
  binaries included in the kcodecs package.
