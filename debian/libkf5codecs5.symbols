@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Codecs.so.4 libkf5codecs4 #MINVER#
+libKF5Codecs.so.5 libkf5codecs5 #MINVER#
  _ZN15KEncodingProber13setProberTypeENS_10ProberTypeE@Base 4.96.0
  _ZN15KEncodingProber17nameForProberTypeENS_10ProberTypeE@Base 4.96.0
  _ZN15KEncodingProber17proberTypeForNameERK7QString@Base 4.96.0
