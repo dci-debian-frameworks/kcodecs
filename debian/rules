@@ -8,4 +8,4 @@
 	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_strip:
-	dh_strip --dbg-package=libkf5codecs4-dbg
+	dh_strip --dbg-package=libkf5codecs5-dbg
