@@ -4,8 +4,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-%:
-	dh $@ --parallel --with pkgkde_symbolshelper
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_strip:
 	dh_strip --dbg-package=libkf5codecs5-dbg
