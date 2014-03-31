@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libKF5Codecs.so.5 libkf5codecs5 #MINVER#
  _ZN15KEncodingProber13setProberTypeENS_10ProberTypeE@Base 4.96.0
  _ZN15KEncodingProber17nameForProberTypeENS_10ProberTypeE@Base 4.96.0
@@ -42,7 +42,6 @@ libKF5Codecs.so.5 libkf5codecs5 #MINVER#
  _ZNK9KCharsets15encodingForNameERK7QString@Base 4.96.0
  _ZNK9KCharsets17encodingsByScriptEv@Base 4.96.0
  _ZNK9KCharsets18codecForNameOrNullERK10QByteArray@Base 4.96.0
- _ZNK9KCharsets19languageForEncodingERK7QString@Base 4.96.0
  _ZNK9KCharsets22availableEncodingNamesEv@Base 4.96.0
  _ZNK9KCharsets22descriptionForEncodingERK7QString@Base 4.96.0
  _ZNK9KCharsets24descriptiveEncodingNamesEv@Base 4.96.0
