@@ -1,4 +1,4 @@
-kcodecs (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
+kcodecs (4.98.0-0ubuntu1) trusty; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream alpha release
