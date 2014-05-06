@@ -1,6 +1,7 @@
 kcodecs (4.99.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream beta release
+  * Add build-dep on qttools5-dev and add libkf5codecs-data package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:49 +0100
 
