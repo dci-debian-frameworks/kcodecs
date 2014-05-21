@@ -3,21 +3,23 @@ Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
-Build-Depends: debhelper (>= 9.0.0), cmake,
- pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13),
- qtbase5-dev,
- qttools5-dev,
- qttools5-dev-tools,
- qt5-default
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               pkg-kde-tools,
+               qt5-default,
+               qtbase5-dev,
+               qttools5-dev,
+               qttools5-dev-tools
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kcodecs
 
 Package: libkf5codecs5
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends}, 
- libkf5codecs-data (=${binary:Version})
+Depends: libkf5codecs-data (=${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: collection of methods to manipulate strings
  KCodecs provide a collection of methods to manipulate strings
  using various encodings.
@@ -25,7 +27,7 @@ Description: collection of methods to manipulate strings
 Package: libkf5codecs-data
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: collection of methods to manipulate strings
  KCodecs provide a collection of methods to manipulate strings
  using various encodings.
@@ -36,7 +38,7 @@ Package: libkf5codecs-dev
 Architecture: any
 Multi-Arch: same
 Section: libdevel
-Depends: libkf5codecs5 (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libkf5codecs5 (=${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: development files for kcodecs
  This package contains development files for building software that uses
  libraries from kcodecs.
@@ -46,7 +48,7 @@ Architecture: any
 Multi-Arch: same
 Section: debug
 Priority: extra
-Depends: libkf5codecs5 (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libkf5codecs5 (=${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: debugging symbols for the kcodecs package
  This package contains debugging files used to investigate problems with
  binaries included in the kcodecs package.
