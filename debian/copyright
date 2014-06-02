@@ -39,7 +39,7 @@ License: LGPL-2+
 Files: src/kcodecs.*
        src/probers/nsSJISProber.h
        src/probers/nsSBCSGroupProber.h
-Copyright: 
+Copyright:
            © 1998 <developer@mozilla.org>
            © 2001 Shy Shalom <shooshX@gmail.com>
            © 2000-2001 Dawit Alemayehu <adawit@kde.org>
