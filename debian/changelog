@@ -6,6 +6,9 @@ kcodecs (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Fix install file 
 
+  [ Rohan Garg ]
+  * Drop extra data package
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:31:02 +0200
 
 kcodecs (4.100.0-0ubuntu1) utopic; urgency=medium
