@@ -13,6 +13,8 @@ Build-Depends: cmake,
                qttools5-dev-tools
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kcodecs
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kcodecs
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kcodecs
 
 Package: libkf5codecs5
 Architecture: any
