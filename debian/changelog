@@ -3,4 +3,10 @@ kcodecs (5.0.0-0ubuntu1) utopic; urgency=medium
   [ Jonathan Riddell ]
   * Initial stable upstream release
 
+  [ Scarlett Clark ]
+  * Update watch file to stable
+  * Change copyright to match upstream 
+  * Remove depend of dropped data package and add replace 
+
  -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 09 Jul 2014 14:07:44 +0200
+

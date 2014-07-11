@@ -19,22 +19,12 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kc
 Package: libkf5codecs5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5codecs-data (=${source:Version}),
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends}
+Replaces: libkf5codecs-data
 Description: collection of methods to manipulate strings
  KCodecs provide a collection of methods to manipulate strings
  using various encodings.
-
-Package: libkf5codecs-data
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: collection of methods to manipulate strings
- KCodecs provide a collection of methods to manipulate strings
- using various encodings.
- .
- This package contains the translations.
 
 Package: libkf5codecs-dev
 Architecture: any
