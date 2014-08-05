@@ -1,4 +1,4 @@
-kcodecs (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+kcodecs (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Update copyright to match licensing to source 
@@ -11,7 +11,7 @@ kcodecs (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * Fix copyright missing license text. 
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:40:23 -0700
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:31:42 +0200
 
 kcodecs (5.0.0-0ubuntu1) utopic; urgency=medium
 
