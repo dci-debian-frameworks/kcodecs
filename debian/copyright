@@ -2,7 +2,8 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kcodecs
 Source: git://anongit.kde.org/kcodecs
 
-Files: autotests/*
+Files: *
+       autotests/*
 Copyright: © 2011 Romain Perier <bambi@kubuntu.org>
            © 2012 Ni Hui <shuizhuyuanluo@126.com>
 License: GPL-2+
