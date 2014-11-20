@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 5.4.0+git20141120.0010+15.04 amd64 i386
 libKF5Codecs.so.5 libkf5codecs5 #MINVER#
  _ZN15KEncodingProber13setProberTypeENS_10ProberTypeE@Base 4.96.0
  _ZN15KEncodingProber17nameForProberTypeENS_10ProberTypeE@Base 4.96.0
@@ -12,13 +12,18 @@ libKF5Codecs.so.5 libkf5codecs5 #MINVER#
  _ZN15KEncodingProberD2Ev@Base 4.96.0
  _ZN7KCodecs12base64DecodeERK10QByteArray@Base 4.96.0
  _ZN7KCodecs12base64DecodeERK10QByteArrayRS0_@Base 4.96.0
+ _ZN7KCodecs12base64EncodeERK10QByteArray@Base 5.4.0+git20141120.0010+15.04
  _ZN7KCodecs12base64EncodeERK10QByteArrayRS0_b@Base 4.96.0
  _ZN7KCodecs12base64EncodeERK10QByteArrayb@Base 4.96.0
+ _ZN7KCodecs19decodeRFC2047StringERK10QByteArrayPS0_S2_NS_13CharsetOptionE@Base 5.4.0+git20141120.0010+15.04
  _ZN7KCodecs19decodeRFC2047StringERK7QString@Base 4.96.0
+ _ZN7KCodecs19encodeRFC2047StringERK7QStringRK10QByteArray@Base 5.4.0+git20141120.0010+15.04
  _ZN7KCodecs21quotedPrintableDecodeERK10QByteArray@Base 4.96.0
  _ZN7KCodecs21quotedPrintableDecodeERK10QByteArrayRS0_@Base 4.96.0
  _ZN7KCodecs21quotedPrintableEncodeERK10QByteArrayRS0_b@Base 4.96.0
  _ZN7KCodecs21quotedPrintableEncodeERK10QByteArrayb@Base 4.96.0
+ _ZN7KCodecs5Codec12codecForNameEPKc@Base 5.4.0+git20141120.0010+15.04
+ _ZN7KCodecs5Codec12codecForNameERK10QByteArray@Base 5.4.0+git20141120.0010+15.04
  _ZN7KCodecs8uudecodeERK10QByteArray@Base 4.96.0
  _ZN7KCodecs8uudecodeERK10QByteArrayRS0_@Base 4.96.0
  _ZN7KCodecs8uuencodeERK10QByteArray@Base 4.96.0
@@ -37,6 +42,10 @@ libKF5Codecs.so.5 libkf5codecs5 #MINVER#
  _ZNK15KEncodingProber10proberTypeEv@Base 4.96.0
  _ZNK15KEncodingProber5stateEv@Base 4.96.0
  _ZNK15KEncodingProber8encodingEv@Base 4.96.0
+ _ZNK7KCodecs5Codec6decodeERK10QByteArrayNS0_11NewlineTypeE@Base 5.4.0+git20141120.0010+15.04
+ _ZNK7KCodecs5Codec6decodeERPKcS2_RPcS2_NS0_11NewlineTypeE@Base 5.4.0+git20141120.0010+15.04
+ _ZNK7KCodecs5Codec6encodeERK10QByteArrayNS0_11NewlineTypeE@Base 5.4.0+git20141120.0010+15.04
+ _ZNK7KCodecs5Codec6encodeERPKcS2_RPcS2_NS0_11NewlineTypeE@Base 5.4.0+git20141120.0010+15.04
  _ZNK9KCharsets12codecForNameERK7QString@Base 4.96.0
  _ZNK9KCharsets12codecForNameERK7QStringRb@Base 4.96.0
  _ZNK9KCharsets15encodingForNameERK7QString@Base 4.96.0
@@ -46,5 +55,8 @@ libKF5Codecs.so.5 libkf5codecs5 #MINVER#
  _ZNK9KCharsets22descriptionForEncodingERK7QString@Base 4.96.0
  _ZNK9KCharsets24descriptiveEncodingNamesEv@Base 4.96.0
  _ZTI9KCharsets@Base 4.96.0
+ _ZTIN7KCodecs5CodecE@Base 5.4.0+git20141120.0010+15.04
  _ZTS9KCharsets@Base 4.96.0
+ _ZTSN7KCodecs5CodecE@Base 5.4.0+git20141120.0010+15.04
  _ZTV9KCharsets@Base 4.96.0
+ _ZTVN7KCodecs5CodecE@Base 5.4.0+git20141120.0010+15.04
