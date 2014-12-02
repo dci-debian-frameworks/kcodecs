@@ -1,5 +1,27 @@
-# SymbolsHelper-Confirmed: 5.4.0+git20141120.0010+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.4.0+git20141202.0008+15.04 amd64 i386
 libKF5Codecs.so.5 libkf5codecs5 #MINVER#
+ _ZN13KEmailAddress12compareEmailERK7QStringS2_b@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress12splitAddressERK10QByteArrayRS0_S3_S3_@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress12splitAddressERK7QStringRS0_S3_S3_@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress14isValidAddressERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress15decodeMailtoUrlERK4QUrl@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress15encodeMailtoUrlERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress16splitAddressListERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress17firstEmailAddressERK10QByteArray@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress17firstEmailAddressERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress17normalizedAddressERK7QStringS2_S2_@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress18isValidAddressListERK7QStringRS0_@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress19extractEmailAddressERK10QByteArray@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress19extractEmailAddressERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress20isValidSimpleAddressERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress20quoteNameIfNecessaryERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress24emailParseResultToStringENS_16EmailParseResultE@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress26extractEmailAddressAndNameERK7QStringRS0_S3_@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress26simpleEmailAddressErrorMsgEv@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress30normalizeAddressesAndDecodeIdnERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress30normalizeAddressesAndEncodeIdnERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress5toIdnERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress7fromIdnERK7QString@Base 5.4.0+git20141202.0008+15.04
  _ZN15KEncodingProber13setProberTypeENS_10ProberTypeE@Base 4.96.0
  _ZN15KEncodingProber17nameForProberTypeENS_10ProberTypeE@Base 4.96.0
  _ZN15KEncodingProber17proberTypeForNameERK7QString@Base 4.96.0
