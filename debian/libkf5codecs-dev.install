@@ -1,4 +1,5 @@
-usr/include/KF5/
-usr/lib/*/cmake/
+usr/include/KF5/KCodecs/
+usr/include/KF5/kcodecs_version.h
+usr/lib/*/cmake/KF5Codecs/
 usr/lib/*/libKF5Codecs.so
-usr/lib/*/qt5/mkspecs/modules/*
+usr/lib/*/qt5/mkspecs/modules/qt_KCodecs.pri
