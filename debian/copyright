@@ -21,9 +21,10 @@ License: GPL-2+
  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
 Files: src/probers/*
-Copyright: © 1998,2008 <developer@mozilla.org>
-           © 2008 <wkai@gmail.com>
-License: MIT/X11
+Copyright: 1998-2008, <developer@mozilla.org>
+           2008, <wkai@gmail.com>
+           2008, <zealot.kai@gmail.com>
+License: Expat
  Permission is hereby granted, free of charge, to any person obtaining
  a copy of this software and associated documentation files (the
  "Software"), to deal in the Software without restriction, including
@@ -43,33 +44,98 @@ License: MIT/X11
  OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Files: src/kcharsets.cpp
-Copyright: © 1999 Lars Knoll <knoll@kde.org>
-           © 2001, 2003, 2004, 2005, 2006 Nicolas GOUTTE <goutte@kde.org>
-           © 2007 Nick Shaforostoff <shafff@ukr.net>
-License: LGPL-2+
-
-Files: src/kcodecs.*
-       src/probers/nsSJISProber.h
-       src/probers/nsSBCSGroupProber.h
-Copyright:
-           © 1998 <developer@mozilla.org>
-           © 2001 Shy Shalom <shooshX@gmail.com>
-           © 2000-2001 Dawit Alemayehu <adawit@kde.org>
-           © 2001 Rik Hemsley <rik@kde.org>
-           © 1991 RSA Data Security Inc. Created
-           © 1991 All Rights Reserved.
-           © 2000-2001 Dawit Alemayehu <adawit@kde.org>
+Files: autotests/kcodecstest.cpp
+       autotests/kcodecstest.h
+       autotests/kemailaddresstest.cpp
+       autotests/kemailaddresstest.h
+       autotests/rfc2047test.cpp
+       autotests/rfc2047test.h
+       src/kcodecs.cpp
+       src/kcodecs.h
+       src/kcodecs_p.h
+Copyright: 2014, Daniel Vrátil <dvratil@redhat.com>
+           2004, David Faure <faure@kde.org>
+           2000-2001, Dawit Alemayehu <adawit@kde.org>
+           2001-2002, Marc Mutz <mutz@kde.org>
+           2001, Rik Hemsley (rikkus) <rik@kde.org>
+           2009, Thomas McGuire <mcguire@kde.org>
+           2006, Volker Krause <vkrause@kde.org>
+           2001, Rik Hemsley <rik@kde.org>
+           1991-1992, RSA Data Security Inc.
+           1995, Mordechai T. Abzug
+           1996-1999, Ronald Tschalär
 License: LGPL-2
 
-Files: src/kencodingprober.*
-       src/kentities.c
+Files: src/probers/nsSJISProber.h
+       src/probers/nsSBCSGroupProber.h
+Copyright: 2001, Netscape Communications Corporation
+License: MPL-1.1 or GPL-2+ or LGPL-2.1+
+ ***** BEGIN LICENSE BLOCK *****
+ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ .
+ The contents of this file are subject to the Mozilla Public License Version
+ 1.1 (the "License"); you may not use this file except in compliance with
+ the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+ .
+ Software distributed under the License is distributed on an "AS IS" basis,
+ WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ for the specific language governing rights and limitations under the
+ License.
+ .
+ The Original Code is Mozilla Universal charset detector code.
+ .
+ The Initial Developer of the Original Code is
+ Netscape Communications Corporation.
+ Portions created by the Initial Developer are Copyright (C) 2001
+ the Initial Developer. All Rights Reserved.
+ .
+ Contributor(s):
+          Shy Shalom <shooshX@gmail.com>
+ .
+ Alternatively, the contents of this file may be used under the terms of
+ either the GNU General Public License Version 2 or later (the "GPL"), or
+ the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ in which case the provisions of the GPL or the LGPL are applicable instead
+ of those above. If you wish to allow use of your version of this file only
+ under the terms of either the GPL or the LGPL, and not to allow others to
+ use your version of this file under the terms of the MPL, indicate your
+ decision by deleting the provisions above and replace them with the notice
+ and other provisions required by the GPL or the LGPL. If you do not delete
+ the provisions above, a recipient may use your version of this file under
+ the terms of any one of the MPL, the GPL or the LGPL.
+ .
+ ***** END LICENSE BLOCK *****
+
+Files: autotests/base64benchmark.cpp
+       autotests/codectest.cpp
+       autotests/codectest.h
+       src/kcharsets.cpp
        src/kcharsets.h
+       src/kcodecsbase64.cpp
+       src/kcodecsbase64.h
+       src/kcodecsidentity.cpp
+       src/kcodecsidentity.h
+       src/kcodecsqp.cpp
+       src/kcodecsqp.h
+       src/kcodecsuuencode.cpp
+       src/kcodecsuuencode.h
+       src/kemailaddress.cpp
+       src/kemailaddress.h
+       src/kencodingprober.cpp
+       src/kencodingprober.h
+       src/kentities.c
        debian/*
-Copyright: © 2008 Wang Hoi <zealot.hoi@gmail.com>
-           © 1999 Lars Knoll <knoll@mpi-hd.mpg.de>
-           © 1999 Lars Knoll <knoll@kde.org>
-             2014 Rohan Garg <rohangarg@kubuntu.org>
+Copyright: 1999, Lars Knoll <knoll@kde.org>
+           1999, Lars Knoll <knoll@mpi-hd.mpg.de>
+           2001-2004, Marc Mutz <mutz@kde.org>
+           2004, Matt Douhan <matt@fruitsalad.org>
+           2007, Nick Shaforostoff <shafff@ukr.net>
+           2001-2006, Nicolas GOUTTE <goutte@kde.org>
+           2010, Thomas McGuire <mcguire@kde.org>
+           2010, Volker Krause <vkrause@kde.org>
+           2008, Wang Hoi <zealot.hoi@gmail.com>
+           2014, Rohan Garg <rohangarg@kubuntu.org>
 License: LGPL-2+
 
 License: LGPL-2+
