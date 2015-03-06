@@ -40,7 +40,7 @@ Package: libkf5codecs-dev
 Architecture: any
 Section: libdevel
 Depends: libkf5codecs5 (= ${binary:Version}),
-         qtbase5-dev,
+         qtbase5-dev (>= 5.2.0),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: development files for kcodecs
