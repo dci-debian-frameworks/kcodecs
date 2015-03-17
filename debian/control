@@ -10,7 +10,7 @@ Build-Depends: cmake,
                qtbase5-dev,
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kcodecs
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kcodecs.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kcodecs.git
