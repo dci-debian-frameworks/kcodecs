@@ -1,8 +1,8 @@
-kcodecs (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
+kcodecs (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 10:48:11 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 23:19:24 +0200
 
 kcodecs (5.8.0-0ubuntu1) vivid; urgency=medium
 
