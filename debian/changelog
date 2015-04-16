@@ -1,6 +1,7 @@
 kcodecs (5.9.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.9.0).
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Apr 2015 10:23:35 +0200
 
