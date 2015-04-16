@@ -3,7 +3,6 @@ Upstream-Name: kcodecs
 Source: git://anongit.kde.org/kcodecs
 
 Files: *
-       debian/*
 Copyright: 1999, Lars Knoll <knoll@kde.org>
            1999, Lars Knoll <knoll@mpi-hd.mpg.de>
            2001-2004, Marc Mutz <mutz@kde.org>
@@ -13,12 +12,11 @@ Copyright: 1999, Lars Knoll <knoll@kde.org>
            2010, Thomas McGuire <mcguire@kde.org>
            2010, Volker Krause <vkrause@kde.org>
            2008, Wang Hoi <zealot.hoi@gmail.com>
-           2014, Rohan Garg <rohangarg@kubuntu.org>
 License: LGPL-2+
 
 Files: autotests/*
-Copyright: © 2011 Romain Perier <bambi@kubuntu.org>
-           © 2012 Ni Hui <shuizhuyuanluo@126.com>
+Copyright: 2011, Romain Perier <bambi@kubuntu.org>
+           2012, Ni Hui <shuizhuyuanluo@126.com>
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -139,7 +137,6 @@ Files: autotests/base64benchmark.cpp
        src/kencodingprober.cpp
        src/kencodingprober.h
        src/kentities.c
-       debian/*
 Copyright: 1999, Lars Knoll <knoll@kde.org>
            1999, Lars Knoll <knoll@mpi-hd.mpg.de>
            2001-2004, Marc Mutz <mutz@kde.org>
@@ -149,7 +146,10 @@ Copyright: 1999, Lars Knoll <knoll@kde.org>
            2010, Thomas McGuire <mcguire@kde.org>
            2010, Volker Krause <vkrause@kde.org>
            2008, Wang Hoi <zealot.hoi@gmail.com>
-           2014, Rohan Garg <rohangarg@kubuntu.org>
+License: LGPL-2+
+
+Files: debian/*
+Copyright: 2014, Rohan Garg <rohangarg@kubuntu.org>
 License: LGPL-2+
 
 License: LGPL-2+
