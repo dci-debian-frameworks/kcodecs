@@ -2,6 +2,7 @@ kcodecs (5.11.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.0).
   * New upstream release (5.11.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 25 Jun 2015 15:36:09 +0200
 
