@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0+git20141202.0008+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.11.0 amd64
 libKF5Codecs.so.5 libkf5codecs5 #MINVER#
  _ZN13KEmailAddress12compareEmailERK7QStringS2_b@Base 5.4.0+git20141202.0008+15.04
  _ZN13KEmailAddress12splitAddressERK10QByteArrayRS0_S3_S3_@Base 5.4.0+git20141202.0008+15.04
@@ -8,11 +8,15 @@ libKF5Codecs.so.5 libkf5codecs5 #MINVER#
  _ZN13KEmailAddress15encodeMailtoUrlERK7QString@Base 5.4.0+git20141202.0008+15.04
  _ZN13KEmailAddress16splitAddressListERK7QString@Base 5.4.0+git20141202.0008+15.04
  _ZN13KEmailAddress17firstEmailAddressERK10QByteArray@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress17firstEmailAddressERK10QByteArrayR7QString@Base 5.11.0
  _ZN13KEmailAddress17firstEmailAddressERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress17firstEmailAddressERK7QStringRS0_@Base 5.11.0
  _ZN13KEmailAddress17normalizedAddressERK7QStringS2_S2_@Base 5.4.0+git20141202.0008+15.04
  _ZN13KEmailAddress18isValidAddressListERK7QStringRS0_@Base 5.4.0+git20141202.0008+15.04
  _ZN13KEmailAddress19extractEmailAddressERK10QByteArray@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress19extractEmailAddressERK10QByteArrayR7QString@Base 5.11.0
  _ZN13KEmailAddress19extractEmailAddressERK7QString@Base 5.4.0+git20141202.0008+15.04
+ _ZN13KEmailAddress19extractEmailAddressERK7QStringRS0_@Base 5.11.0
  _ZN13KEmailAddress20isValidSimpleAddressERK7QString@Base 5.4.0+git20141202.0008+15.04
  _ZN13KEmailAddress20quoteNameIfNecessaryERK7QString@Base 5.4.0+git20141202.0008+15.04
  _ZN13KEmailAddress24emailParseResultToStringENS_16EmailParseResultE@Base 5.4.0+git20141202.0008+15.04
