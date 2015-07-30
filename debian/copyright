@@ -26,10 +26,16 @@ Copyright: 1999, Lars Knoll <knoll@kde.org>
            2001, translate.org.za
 License: LGPL-2+
 
-Files: autotests/*
-Copyright: 2011, Romain Perier <bambi@kubuntu.org>
+Files: COPYING
+       autotests/kcharsetstest.cpp
+       autotests/kcharsetstest.h
+       autotests/kencodingprobertest.cpp
+       autotests/kencodingprobertest.h
+Copyright: 1989-1991, Free Software Foundation, Inc
            2012, Ni Hui <shuizhuyuanluo@126.com>
+           2011, Romain Perier <bambi@kubuntu.org>
 License: GPL-2+
+
 
 Files: src/probers/*
 Copyright: 1998-2008, <developer@mozilla.org>
@@ -58,16 +64,6 @@ Copyright: 2014, Daniel Vrátil <dvratil@redhat.com>
            1995, Mordechai T. Abzug
            1996-1999, Ronald Tschalär
 License: LGPL-2
-
-Files: COPYING
-       autotests/kcharsetstest.cpp
-       autotests/kcharsetstest.h
-       autotests/kencodingprobertest.cpp
-       autotests/kencodingprobertest.h
-Copyright: 1989-1991, Free Software Foundation, Inc
-           2012, Ni Hui <shuizhuyuanluo@126.com>
-           2011, Romain Perier <bambi@kubuntu.org>
-License: GPL-2+
 
 Files: po/ca/kcodecs5_qt.po
        po/ca@valencia/kcodecs5_qt.po
