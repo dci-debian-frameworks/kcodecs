@@ -8,6 +8,7 @@ kcodecs (5.12.0-0ubuntu2) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
+  * Vivid backport. 
 
   [ Aaron Honeycutt ]
   * Fix debian/copyright
