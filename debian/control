@@ -13,7 +13,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kcodecs
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kcodecs.git
-Vcs-Git: https://anonscm.debian.org/pkg-kde/frameworks/kcodecs.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kcodecs.git
 
 Package: libkf5codecs5
 Architecture: any
