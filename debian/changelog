@@ -1,3 +1,14 @@
+kcodecs (5.20.0-1~1.gbp9629d8) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9629d8f87b876a462de50f3820c202767d950d66 **
+
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 23 Mar 2016 22:41:26 +0100
+
 kcodecs (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
