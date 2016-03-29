@@ -1,6 +1,6 @@
-kcodecs (5.20.0-1~6.gbp7f9c93) UNRELEASED; urgency=medium
+kcodecs (5.20.0-1~7.gbpd4e865) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7f9c937551f08cb98e41b28f76a5e95379ef33f2 **
+  ** SNAPSHOT build @d4e865826e55677d9c7c2925a0a3efb6a8837a99 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -11,8 +11,9 @@ kcodecs (5.20.0-1~6.gbp7f9c93) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 10:21:38 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 23:23:39 +0200
 
 kcodecs (5.19.0-1) experimental; urgency=medium
 
