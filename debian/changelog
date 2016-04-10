@@ -1,5 +1,8 @@
-kcodecs (5.20.0-1~10.gbpf68e4e) UNRELEASED; urgency=medium
+kcodecs (5.21.0-1~1.gbp69b0dc) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @69b0dc841718459f2307d59c7b0bce1e5ba15e83 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @f68e4ee1fee66db0f5df15970585af3a38d0d54e **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -16,7 +19,10 @@ kcodecs (5.20.0-1~10.gbpf68e4e) UNRELEASED; urgency=medium
   * Update acc test script
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:33:27 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 03:33:09 +0200
 
 kcodecs (5.19.0-1) experimental; urgency=medium
 
