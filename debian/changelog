@@ -1,6 +1,6 @@
-kcodecs (5.21.0-1~1.gbp69b0dc) UNRELEASED; urgency=medium
+kcodecs (5.21.0-1~2.gbpbf4218) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @69b0dc841718459f2307d59c7b0bce1e5ba15e83 **
+  ** SNAPSHOT build @bf421859302309c919f8bf705e8c1070418a5f14 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @f68e4ee1fee66db0f5df15970585af3a38d0d54e **
@@ -21,8 +21,9 @@ kcodecs (5.21.0-1~1.gbp69b0dc) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 03:33:09 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:03:49 +0200
 
 kcodecs (5.19.0-1) experimental; urgency=medium
 
