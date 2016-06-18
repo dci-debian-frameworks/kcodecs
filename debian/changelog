@@ -1,10 +1,9 @@
-kcodecs (5.23.0-1~1.gbpad57db) UNRELEASED; urgency=medium
+kcodecs (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ad57db946c6ea62eaad230f59df9810a59a322f4 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 21:33:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:09:50 +0200
 
 kcodecs (5.22.0-1) unstable; urgency=medium
 
