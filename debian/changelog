@@ -1,17 +1,12 @@
-kcodecs (5.25.0-1~2.gbp75d224) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @75d224deca3a919f71b6fe674749ce296740dc24 **
+kcodecs (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @faa410f7a71317069e1613d311fc725efdcb4271 **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:33:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:20:45 +0200
 
 kcodecs (5.23.0-1) unstable; urgency=medium
 
