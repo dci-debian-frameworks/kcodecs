@@ -26,14 +26,9 @@ Copyright: 1999, Lars Knoll <knoll@kde.org>
            2001, translate.org.za
 License: LGPL-2+
 
-Files: COPYING
-       autotests/kcharsetstest.cpp
-       autotests/kcharsetstest.h
-       autotests/kencodingprobertest.cpp
-       autotests/kencodingprobertest.h
-Copyright: 1989-1991, Free Software Foundation, Inc
+Files: autotests/*
+Copyright: 2011, Romain Perier <bambi@kubuntu.org>
            2012, Ni Hui <shuizhuyuanluo@126.com>
-           2011, Romain Perier <bambi@kubuntu.org>
 License: GPL-2+
 
 Files: src/probers/*
@@ -64,6 +59,16 @@ Copyright: 2014, Daniel Vrátil <dvratil@redhat.com>
            1996-1999, Ronald Tschalär
 License: LGPL-2
 
+Files: COPYING
+       autotests/kcharsetstest.cpp
+       autotests/kcharsetstest.h
+       autotests/kencodingprobertest.cpp
+       autotests/kencodingprobertest.h
+Copyright: 1989-1991, Free Software Foundation, Inc
+           2012, Ni Hui <shuizhuyuanluo@126.com>
+           2011, Romain Perier <bambi@kubuntu.org>
+License: GPL-2+
+
 Files: po/ca/kcodecs5_qt.po
        po/ca@valencia/kcodecs5_qt.po
        po/uk/kcodecs5_qt.po
@@ -74,41 +79,6 @@ Files: src/probers/nsSJISProber.h
        src/probers/nsSBCSGroupProber.h
 Copyright: 2001, Netscape Communications Corporation
 License: MPL-1.1 or GPL-2+ or LGPL-2.1+
-
-Files: po/bg/kcodecs5_qt.po
-Copyright: 2009-2013, Yasen Pramatarov <yasen@lindeas.com>
-           2006-2009, Zlatko Popov <zlatkopopov@fsa-bg.org>
-License: GPL
- This file is licensed under the GPL.
- .
- On Debian systems, the complete text of the GNU General Public License can be
- found in `/usr/share/common-licenses/GPL'.
-
-Files: debian/*
-Copyright: 2014, Rohan Garg <rohangarg@kubuntu.org>
-License: LGPL-2+
-
-License: Expat
- Permission is hereby granted, free of charge, to any person obtaining
- a copy of this software and associated documentation files (the
- "Software"), to deal in the Software without restriction, including
- without limitation the rights to use, copy, modify, merge, publish,
- distribute, sublicense, and/or sell copies of the Software, and to
- permit persons to whom the Software is furnished to do so, subject to
- the following conditions:
- .
- The above copyright notice and this permission notice shall be included
- in all copies or substantial portions of the Software.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
- MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
- LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
- OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
- WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-License: MPL-1.1
  ***** BEGIN LICENSE BLOCK *****
  Version: MPL 1.1/GPL 2.0/LGPL 2.1
  .
@@ -145,6 +115,39 @@ License: MPL-1.1
  the terms of any one of the MPL, the GPL or the LGPL.
  .
  ***** END LICENSE BLOCK *****
+
+Files: po/bg/kcodecs5_qt.po
+Copyright: 2009-2013, Yasen Pramatarov <yasen@lindeas.com>
+           2006-2009, Zlatko Popov <zlatkopopov@fsa-bg.org>
+License: GPL
+ This file is licensed under the GPL.
+ .
+ On Debian systems, the complete text of the GNU General Public License can be
+ found in `/usr/share/common-licenses/GPL'.
+
+Files: debian/*
+Copyright: 2014, Rohan Garg <rohangarg@kubuntu.org>
+License: LGPL-2+
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 License: GPL-2+
  This program is free software; you can redistribute it and/or
@@ -205,22 +208,3 @@ License: LGPL-2.1+3+KDEeV
  version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
  the complete text of the GNU Lesser General Public License version 3 can be
  found in `/usr/share/common-licenses/LGPL-3'.
-
-License: LGPL-2.1+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2.1 of the License, or (at your option) any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public
- License along with this library; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
- .
- On Debian systems, the complete text of the
- GNU Lesser General Public License version 2.1 can be found in
- /usr/share/common-licenses/LGPL-2.1
