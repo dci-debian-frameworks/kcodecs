@@ -1,3 +1,15 @@
+kcodecs (5.27.0-2~1.gbp4d0079) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4d0079abc663f15236fc283854c51fae0fbea165 **
+
+  [ Harald Sitter ]
+  * properly define mpl-1.1
+
+  [ Automatic packaging ]
+  * Update symbols files from buildds logs (5.27.0-1).
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 08 Nov 2016 13:33:30 +0100
+
 kcodecs (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
