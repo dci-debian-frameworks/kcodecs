@@ -1,9 +1,10 @@
-kcodecs (5.27.0-2~1.gbp4d0079) UNRELEASED; urgency=medium
+kcodecs (5.27.0-2~2.gbp5f3598) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4d0079abc663f15236fc283854c51fae0fbea165 **
+  ** SNAPSHOT build @5f359830cac74b6d483db22b0a1e95e542ec8db9 **
 
   [ Harald Sitter ]
   * properly define mpl-1.1
+  * add missing license definition
 
   [ Automatic packaging ]
   * Update symbols files from buildds logs (5.27.0-1).
