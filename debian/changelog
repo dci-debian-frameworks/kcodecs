@@ -1,6 +1,6 @@
-kcodecs (5.27.0-2~2.gbp5f3598) UNRELEASED; urgency=medium
+kcodecs (5.28.0-1~1.gbp39975b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @5f359830cac74b6d483db22b0a1e95e542ec8db9 **
+  ** SNAPSHOT build @39975baf562b4061e8accc1a31d2728c336bbf8f **
 
   [ Harald Sitter ]
   * properly define mpl-1.1
@@ -8,8 +8,9 @@ kcodecs (5.27.0-2~2.gbp5f3598) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update symbols files from buildds logs (5.27.0-1).
+  * Update build-deps and deps with the info from cmake
 
- -- Harald Sitter <sitter@kde.org>  Tue, 08 Nov 2016 13:33:30 +0100
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 15:33:26 +0100
 
 kcodecs (5.27.0-1) unstable; urgency=medium
 
