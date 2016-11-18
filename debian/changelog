@@ -1,6 +1,4 @@
-kcodecs (5.28.0-1~1.gbp39975b) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @39975baf562b4061e8accc1a31d2728c336bbf8f **
+kcodecs (5.28.0-1) unstable; urgency=medium
 
   [ Harald Sitter ]
   * properly define mpl-1.1
@@ -10,7 +8,11 @@ kcodecs (5.28.0-1~1.gbp39975b) UNRELEASED; urgency=medium
   * Update symbols files from buildds logs (5.27.0-1).
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 15:33:26 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:00:51 +0100
 
 kcodecs (5.27.0-1) unstable; urgency=medium
 
