@@ -25,14 +25,14 @@ Depends: libkf5codecs-data (= ${source:Version}),
 Description: collection of methods to manipulate strings
  KCodecs provide a collection of methods to manipulate strings
  using various encodings.
-Breaks: kio (<< 5.35),
-        libkf5bookmarks5 (<< 5.35),
-        libkf5configwidgets5 (<< 5.35),
-        libkf5kdelibs4support5 (<< 5.35),
-        libkf5khtml5 (<< 5.35),
-        libkf5kiofilewidgets5 (<< 5.35),
-        libkf5notifications5 (<< 5.35),
-        libkf5texteditor5 (<< 5.35)
+Breaks: kio (<< 5.36),
+        libkf5bookmarks5 (<< 5.36),
+        libkf5configwidgets5 (<< 5.36),
+        libkf5kdelibs4support5 (<< 5.36),
+        libkf5khtml5 (<< 5.36),
+        libkf5kiofilewidgets5 (<< 5.36),
+        libkf5notifications5 (<< 5.36),
+        libkf5texteditor5 (<< 5.36)
 
 Package: libkf5codecs-data
 Architecture: all
@@ -54,4 +54,4 @@ Depends: libkf5codecs5 (= ${binary:Version}),
 Description: development files for kcodecs
  This package contains development files for building software that uses
  libraries from kcodecs.
-Breaks: libkf5configwidgets-dev (<< 5.35)
+Breaks: libkf5configwidgets-dev (<< 5.36)
