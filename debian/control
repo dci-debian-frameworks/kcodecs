@@ -5,34 +5,19 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
                gperf,
+               graphviz,
+               libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
                qttools5-dev (>= 5.4),
-               qttools5-dev-tools (>= 5.4)
+               qttools5-dev-tools (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/kcodecs
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kcodecs.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kcodecs.git
-
-Package: libkf5codecs5
-Architecture: any
-Multi-Arch: same
-Depends: libkf5codecs-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: collection of methods to manipulate strings
- KCodecs provide a collection of methods to manipulate strings
- using various encodings.
-Breaks: kio (<< 5.37),
-        libkf5bookmarks5 (<< 5.37),
-        libkf5configwidgets5 (<< 5.37),
-        libkf5kdelibs4support5 (<< 5.37),
-        libkf5khtml5 (<< 5.37),
-        libkf5kiofilewidgets5 (<< 5.37),
-        libkf5notifications5 (<< 5.37),
-        libkf5texteditor5 (<< 5.37)
 
 Package: libkf5codecs-data
 Architecture: all
@@ -50,8 +35,37 @@ Section: libdevel
 Depends: libkf5codecs5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
+Recommends: libkf5codecs-doc (= ${source:Version})
 Description: development files for kcodecs
  This package contains development files for building software that uses
  libraries from kcodecs.
 Breaks: libkf5configwidgets-dev (<< 5.37)
+
+Package: libkf5codecs-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: collection of methods to manipulate strings (documentation)
+ KCodecs provide a collection of methods to manipulate strings
+ using various encodings.
+ .
+ This package contains the qch documentation files.
+
+Package: libkf5codecs5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5codecs-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: collection of methods to manipulate strings
+ KCodecs provide a collection of methods to manipulate strings
+ using various encodings.
+Breaks: kio (<< 5.37),
+        libkf5bookmarks5 (<< 5.37),
+        libkf5configwidgets5 (<< 5.37),
+        libkf5kdelibs4support5 (<< 5.37),
+        libkf5khtml5 (<< 5.37),
+        libkf5kiofilewidgets5 (<< 5.37),
+        libkf5notifications5 (<< 5.37),
+        libkf5texteditor5 (<< 5.37),
