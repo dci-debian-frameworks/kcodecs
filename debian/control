@@ -51,6 +51,7 @@ Description: collection of methods to manipulate strings (documentation)
  using various encodings.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5codecs5
 Architecture: any
