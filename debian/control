@@ -40,7 +40,7 @@ Recommends: libkf5codecs-doc (= ${source:Version})
 Description: development files for kcodecs
  This package contains development files for building software that uses
  libraries from kcodecs.
-Breaks: libkf5configwidgets-dev (<< 5.41)
+Breaks: libkf5configwidgets-dev (<< 5.42)
 
 Package: libkf5codecs-doc
 Architecture: all
@@ -62,11 +62,33 @@ Depends: libkf5codecs-data (= ${source:Version}),
 Description: collection of methods to manipulate strings
  KCodecs provide a collection of methods to manipulate strings
  using various encodings.
-Breaks: kio (<< 5.41),
-        libkf5bookmarks5 (<< 5.41),
-        libkf5configwidgets5 (<< 5.41),
-        libkf5kdelibs4support5 (<< 5.41),
-        libkf5khtml5 (<< 5.41),
-        libkf5kiofilewidgets5 (<< 5.41),
-        libkf5notifications5 (<< 5.41),
-        libkf5texteditor5 (<< 5.41),
+Breaks: kdesignerplugin (<< 5.42),
+        kio (<< 5.42),
+        kross (<< 5.42),
+        ktexteditor-katepart (<< 5.42),
+        libkf5bookmarks5 (<< 5.42),
+        libkf5configwidgets5 (<< 5.42),
+        libkf5iconthemes5 (<< 5.42),
+        libkf5kcmutils5 (<< 5.42),
+        libkf5kdelibs4support5 (<< 5.42),
+        libkf5kdelibs4support5-bin (<< 5.42),
+        libkf5khtml-bin (<< 5.42),
+        libkf5khtml5 (<< 5.42),
+        libkf5kiofilewidgets5 (<< 5.42),
+        libkf5kiowidgets5 (<< 5.42),
+        libkf5krossui5 (<< 5.42),
+        libkf5mediaplayer5 (<< 5.42),
+        libkf5newstuff5 (<< 5.42),
+        libkf5notifications5 (<< 5.42),
+        libkf5parts-plugins (<< 5.42),
+        libkf5parts5 (<< 5.42),
+        libkf5plasma5 (<< 5.42),
+        libkf5plasmaquick5 (<< 5.42),
+        libkf5style5 (<< 5.42),
+        libkf5texteditor5 (<< 5.42),
+        libkf5textwidgets5 (<< 5.42),
+        libkf5wallet-bin (<< 5.42),
+        libkf5webkit5 (<< 5.42),
+        libkf5xmlgui5 (<< 5.42),
+        plasma-framework (<< 5.42),
+        qml-module-org-kde-qqc2desktopstyle (<< 5.42),
